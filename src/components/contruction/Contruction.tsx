@@ -48,7 +48,10 @@ export default function Contruction() {
                 onClick={() => toggleAccordion(index)}
               >
                 <div
-                  style={{ display: "flex", justifyContent: "space-between" }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                  }}
                 >
                   <span>{d.key}</span>
                   <span>{activeIndex === index ? "-" : "+"}</span>
@@ -56,9 +59,13 @@ export default function Contruction() {
               </button>
               <div
                 className="panel"
-                style={{ display: activeIndex === index ? "block" : "none" }}
+                style={{
+                  display: activeIndex === index ? "block" : "none",
+                  fontSize: "16px",
+                  fontFamily: "Inter",
+                }}
               >
-                <p>{d.value}</p>
+                <span style={{ opacity: "0.8" }}>{d.value}</span>
               </div>
             </div>
           ))}

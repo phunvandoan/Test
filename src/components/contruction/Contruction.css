@@ -15,19 +15,21 @@
   font-size: 1rem; /* 16px / 16 = 1rem */
   color: #8e8d8d;
   text-transform: uppercase;
+  font-family: "Inter";
 }
 
 .contruction-sologan__lagre {
   font-size: 3.75rem; /* 60px / 16 = 3.75rem */
   font-family: "Optima";
   max-width: 31.125rem; /* 498px / 16 = 31.125rem */
+  margin-top: 15px;
 }
 
 /* test */
 .contruction__accordion-container {
   width: 100%;
   max-width: 37.5rem; /* 600px / 16 = 37.5rem */
-  margin-top: 3.75rem; /* 60px / 16 = 3.75rem */
+  margin-top: 20px;
 }
 
 .contruction__accordion-container .accordion {
@@ -35,27 +37,28 @@
   border-bottom: 0.125rem solid #eee; /* 2px / 16 = 0.125rem */
   color: #444;
   cursor: pointer;
-  padding: 1.125rem; /* 18px / 16 = 1.125rem */
+  padding: 1.125rem 0; /* 18px / 16 = 1.125rem */
   width: 100%;
   border-left: none;
   border-right: none;
   border-top: none;
   text-align: left;
   outline: none;
-  font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
+  font-size: 22px;
   transition: 0.4s;
 }
 
-.contruction__accordion-container .active,
-.contruction__accordion-container .accordion:hover {
-  background-color: #ccc;
+.contruction__accordion-container .active
+/* .contruction__accordion-container .accordion:hover  */ {
+  border: none;
 }
 
 .contruction__accordion-container .panel {
-  padding: 0 1.125rem; /* 18px / 16 = 1.125rem */
+  /* padding: 0 1.125rem; */
   display: none; /* Mặc định ẩn */
   background-color: white;
   overflow: hidden;
+  color: #402c22;
 }
 
 .contruction__accordion-container .panel p {
@@ -69,7 +72,7 @@
 
 .contruction-right .left_image {
   width: 41.5rem; /* 664px / 16 = 41.5rem */
-  margin: 0 0.625rem 0 5rem; /* 10px / 16 = 0.625rem, 80px / 16 = 5rem */
+  margin: 0 0.625rem 0 145px; /* 10px / 16 = 0.625rem, 80px / 16 = 5rem */
 }
 
 .contruction-right .right_image {

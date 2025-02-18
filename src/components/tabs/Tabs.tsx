@@ -26,8 +26,8 @@ function Tabs({ title, data }: bigData) {
 
   return (
     <div>
-      <h2 className="footer_content-center-title">{title}</h2>
-      <div className="footer_content-center-tab">
+      <span className="footer_content-center-title">{title}</span>
+      <div className="footer_content-center-tab" style={{ marginTop: "12px" }}>
         {data.map((d, index) => (
           <button
             key={index}
@@ -50,6 +50,13 @@ function Tabs({ title, data }: bigData) {
             </div>
           )
       )}
+      <hr
+        style={{
+          width: "160px",
+          margin: "56px auto",
+          opacity: 0.1,
+        }}
+      />
     </div>
   );
 }

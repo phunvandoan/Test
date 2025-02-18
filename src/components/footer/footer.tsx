@@ -79,7 +79,7 @@ export default function Footer() {
     <div className="footer">
       <fieldset>
         <legend style={{ textAlign: "center" }}>
-          <i> Here some highlight in package:</i>
+          Here some highlight in package:
         </legend>
         <div className="footer_content">
           {/* left */}
@@ -92,7 +92,7 @@ export default function Footer() {
             <br />
             <img
               className="footer-image-left-second"
-              src="/images/Rectangle68.png"
+              src="/images/Rectangle69.png"
               alt=""
             />
           </div>
@@ -107,7 +107,7 @@ export default function Footer() {
           <div className="footer_content-right">
             <img
               className="footer-image-right-first"
-              src="/images/Rectangle69.png"
+              src="/images/Rectangle68.png"
               alt=""
             />
             <br />

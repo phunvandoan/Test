@@ -10,10 +10,8 @@ const Introduction = () => {
         {/* feature */}
         <div className="introduction-box ">
           <span className="introducion-text">SPECIAL FEATURE</span>
-          <span className="introducion-text-sologan">{t("home.slogan")}</span>
-          <span className="introducion-text-ex-sologan">
-            {t("home.ex_slogan")}
-          </span>
+          <span className="introducion-text-sologan">Super</span>
+          <span className="introducion-text-ex-sologan">Smart</span>
           <img
             className="introduction-image"
             src="/images/image 215.png"
@@ -31,15 +29,27 @@ const Introduction = () => {
             {/* nav */}
             <div className="introduction-nav-icons">
               <div className="introduction-nav-icons-item">
-                <img src="/icons/icon1.svg" alt="" />
+                <img
+                  style={{ width: "23px", height: "36px" }}
+                  src="/icons/icon1.svg"
+                  alt=""
+                />
                 <span>{t("home.icon1")}</span>
               </div>
               <div className="introduction-nav-icons-item">
-                <img src="/icons/icon2.svg" alt="" />
+                <img
+                  style={{ width: "23px", height: "36px" }}
+                  src="/icons/icon2.svg"
+                  alt=""
+                />
                 <span>{t("home.icon2")}</span>
               </div>
               <div className="introduction-nav-icons-item">
-                <img src="/icons/icon3.svg" alt="" />
+                <img
+                  style={{ width: "23px", height: "36px" }}
+                  src="/icons/icon3.svg"
+                  alt=""
+                />
                 <span>{t("home.icon3")}</span>
               </div>
             </div>
