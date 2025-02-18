@@ -6,14 +6,24 @@
 }
 
 @font-face {
+  font-family: "Poppins-black";
+  src: url("../public/fonts/Poppins-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Poppins-b";
   src: url("../public/fonts/Poppins-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
+@font-face {
+  font-family: "Optima";
+  src: url("../public/fonts/OptimaNovaLTProRegular.otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .rounded {

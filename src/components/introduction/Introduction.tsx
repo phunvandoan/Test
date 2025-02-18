@@ -9,7 +9,7 @@ const Introduction = () => {
       <div className="introduction">
         {/* feature */}
         <div className="introduction-box ">
-          <span className="introducion-text">{t("home.title")}</span>
+          <span className="introducion-text">SPECIAL FEATURE</span>
           <span className="introducion-text-sologan">{t("home.slogan")}</span>
           <span className="introducion-text-ex-sologan">
             {t("home.ex_slogan")}
@@ -25,7 +25,9 @@ const Introduction = () => {
           {/* nav */}
           <div className="introduction-nav ">
             {/* sologan-nav */}
-            <div className="sologan-nav">{t("home.nav_slogan")}</div>
+            <div className="sologan-nav">
+              We want to share creative inspiration, expression
+            </div>
             {/* nav */}
             <div className="introduction-nav-icons">
               <div className="introduction-nav-icons-item">

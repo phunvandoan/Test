@@ -2,18 +2,21 @@
   margin-top: 6.25rem; /* 100px / 16 = 6.25rem */
   background-color: #fff9f5;
   color: #998077;
+  font-family: "sans-serif";
 }
 
 .footer fieldset {
   border-right: none;
   border-left: none;
   border-bottom: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 .footer legend {
-  font-size: 1.125rem; /* 18px / 16 = 1.125rem */
-  padding: 1.25rem 2.5rem; /* 20px / 16 = 1.25rem, 40px / 16 = 2.5rem */
+  font-size: 1.8rem; /* 18px / 16 = 1.125rem */
+  padding: 2rem 2.5rem; /* 20px / 16 = 1.25rem, 40px / 16 = 2.5rem */
   border-right: none;
+  font-family: "sans-serif";
 }
 
 .footer_content {
@@ -46,6 +49,9 @@
 
 .footer_content-center-title {
   font-size: 2.875rem; /* 46px / 16 = 2.875rem */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 100;
+  color: #462b20;
 }
 
 .footer_content-center-tab {

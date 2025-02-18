@@ -14,7 +14,7 @@
 .introduction-image {
   background: linear-gradient(180deg, #ddd4c500, #8e887e);
   padding: 10rem 4.375rem 0 3.125rem; /* 160px / 16 = 10rem, 70px / 16 = 4.375rem, 50px / 16 = 3.125rem */
-  border-radius: 0.25rem; /* 4% có thể đổi thành 0.25rem */
+  border-radius: 3%;
 }
 
 .introducion-text {
@@ -50,15 +50,15 @@
 .introduction-navbar {
   width: 48.875rem; /* 782px / 16 = 48.875rem */
   height: 23.1875rem; /* 371px / 16 = 23.1875rem */
-  background-color: #efefef;
-  border-radius: 0.25rem; /* 4% có thể đổi thành 0.25rem */
+  background-color: #f7f7f8;
+  border-radius: 3%;
 }
 
 .introduction-navbar .sologan-nav {
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins-black", sans-serif;
   font-size: 1.875rem; /* 30px / 16 = 1.875rem */
-  padding: 3.75rem 1.875rem; /* 60px / 16 = 3.75rem, 30px / 16 = 1.875rem */
+  padding: 2.5rem 7rem; /* 60px / 16 = 3.75rem, 30px / 16 = 1.875rem */
 }
 
 .introduction-nav-icons {
@@ -78,7 +78,8 @@
 
 .introduction-nav-icons-item:nth-child(1),
 .introduction-nav-icons-item:nth-child(2) {
-  border-right: 0.125rem solid #c6c5c4; /* 2px / 16 = 0.125rem */
+  padding: 20px 0;
+  border-right: 0.1px solid rgba(0, 0, 0, 0.07); /* 2px / 16 = 0.125rem */
 }
 
 .introduction-nav-icons-item span {
@@ -101,7 +102,7 @@
   width: 48.875rem; /* 782px / 16 = 48.875rem */
   height: 95%;
   object-fit: cover;
-  border-radius: 0.25rem; /* 4% có thể đổi thành 0.25rem */
+  border-radius: 3%;
 }
 
 .introduction-nav-slice button {

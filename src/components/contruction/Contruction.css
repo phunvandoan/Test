@@ -1,6 +1,7 @@
 .contruction {
   margin-top: 6.25rem; /* 100px / 16 = 6.25rem */
   display: flex;
+  font-family: "Optima";
 }
 
 .contruction-left {
@@ -18,7 +19,7 @@
 
 .contruction-sologan__lagre {
   font-size: 3.75rem; /* 60px / 16 = 3.75rem */
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Optima";
   max-width: 31.125rem; /* 498px / 16 = 31.125rem */
 }
 

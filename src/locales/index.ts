@@ -9,7 +9,7 @@ const resources = {
 };
 
 i18next.use(initReactI18next).init({
-  lng: "vi_VN",
+  lng: "en_US",
   debug: true,
   resources,
 });

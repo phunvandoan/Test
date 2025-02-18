@@ -1,4 +1,4 @@
-import { changeLanguage } from "i18next";
+// import { changeLanguage } from "i18next";
 import Contruction from "../components/contruction/Contruction";
 import Footer from "../components/footer/footer";
 import Introduction from "../components/introduction/Introduction";
@@ -6,7 +6,7 @@ import "./HomePage.css";
 const HomePage = () => {
   return (
     <>
-      <div style={{ textAlign: "center", margin: "20px 0" }}>
+      {/* <div style={{ textAlign: "center", margin: "20px 0" }}>
         <button
           onClick={() => changeLanguage("vi_VN")}
           style={{
@@ -38,7 +38,7 @@ const HomePage = () => {
         >
           en_US
         </button>
-      </div>
+      </div> */}
 
       <Introduction />
       <Contruction />
