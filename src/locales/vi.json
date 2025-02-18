@@ -1,0 +1,23 @@
+{
+  "translation": {
+    "home": {
+      "title": "GG",
+      "slogan": "Siêu",
+      "ex_slogan": "Thông Minh",
+      "nav_slogan": "Chúng tôi muốn chia sẻ cảm hứng sáng tạo, sự thể hiện",
+      "icon1": "Hệ thống treo cốt yên",
+      "icon2": "Hệ thống treo",
+      "icon3": "Pin hoàn toàn mới",
+      "show_all": "xem thêm"
+    },
+    "CreateLesson": {
+      "title": "Create Lesson",
+      "content": "This is the create lesson page"
+    },
+    "footer": "Check",
+    "lang": {
+      "vi": "Tiếng Việt",
+      "en": "English"
+    }
+  }
+}

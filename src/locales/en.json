@@ -1,0 +1,23 @@
+{
+  "translation": {
+    "home": {
+      "title": "Home",
+      "slogan": "Super",
+      "ex_slogan": "Smart",
+      "nav_slogan": "We want to share creative inspiration, expression",
+      "icon1": "Seatpost Suspension",
+      "icon2": "Seatpost Suspension",
+      "icon3": "All-new Battery",
+      "show_all": "Show all"
+    },
+    "CreateLesson": {
+      "title": "Create Lesson",
+      "content": "This is the create lesson page"
+    },
+    "footer": "Check",
+    "lang": {
+      "vi": "Tiếng Việt",
+      "en": "English"
+    }
+  }
+}

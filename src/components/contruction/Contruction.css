@@ -1,0 +1,78 @@
+.contruction {
+  margin-top: 6.25rem; /* 100px / 16 = 6.25rem */
+  display: flex;
+}
+
+.contruction-left {
+  margin-top: 6.25rem; /* 100px / 16 = 6.25rem */
+  width: 47.75rem; /* 764px / 16 = 47.75rem */
+  padding-left: 3.125rem; /* 50px / 16 = 3.125rem */
+  flex: 1;
+}
+
+.contruction-sologan__small {
+  font-size: 1rem; /* 16px / 16 = 1rem */
+  color: #8e8d8d;
+  text-transform: uppercase;
+}
+
+.contruction-sologan__lagre {
+  font-size: 3.75rem; /* 60px / 16 = 3.75rem */
+  font-family: "Times New Roman", Times, serif;
+  max-width: 31.125rem; /* 498px / 16 = 31.125rem */
+}
+
+/* test */
+.contruction__accordion-container {
+  width: 100%;
+  max-width: 37.5rem; /* 600px / 16 = 37.5rem */
+  margin-top: 3.75rem; /* 60px / 16 = 3.75rem */
+}
+
+.contruction__accordion-container .accordion {
+  background-color: white;
+  border-bottom: 0.125rem solid #eee; /* 2px / 16 = 0.125rem */
+  color: #444;
+  cursor: pointer;
+  padding: 1.125rem; /* 18px / 16 = 1.125rem */
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: left;
+  outline: none;
+  font-size: 0.9375rem; /* 15px / 16 = 0.9375rem */
+  transition: 0.4s;
+}
+
+.contruction__accordion-container .active,
+.contruction__accordion-container .accordion:hover {
+  background-color: #ccc;
+}
+
+.contruction__accordion-container .panel {
+  padding: 0 1.125rem; /* 18px / 16 = 1.125rem */
+  display: none; /* Mặc định ẩn */
+  background-color: white;
+  overflow: hidden;
+}
+
+.contruction__accordion-container .panel p {
+  margin: 0.625rem 0; /* 10px / 16 = 0.625rem */
+}
+
+.contruction-right {
+  flex: 2;
+  position: relative;
+}
+
+.contruction-right .left_image {
+  width: 41.5rem; /* 664px / 16 = 41.5rem */
+  margin: 0 0.625rem 0 5rem; /* 10px / 16 = 0.625rem, 80px / 16 = 5rem */
+}
+
+.contruction-right .right_image {
+  width: 22.0625rem; /* 353px / 16 = 22.0625rem */
+  position: absolute;
+  top: 0;
+}
