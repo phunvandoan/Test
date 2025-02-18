@@ -26,6 +26,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "InstrumentSerif";
+  src: url("../public/fonts/InstrumentSerif-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter-VariableFont_opsz\,wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .rounded {
   border-radius: 15px;
 }
