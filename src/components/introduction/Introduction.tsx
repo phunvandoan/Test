@@ -38,7 +38,7 @@ const Introduction = () => {
               </div>
               <div className="introduction-nav-icons-item">
                 <img
-                  style={{ width: "23px", height: "36px" }}
+                  style={{ width: "20px", height: "36px" }}
                   src="/icons/icon2.svg"
                   alt=""
                 />
@@ -46,7 +46,7 @@ const Introduction = () => {
               </div>
               <div className="introduction-nav-icons-item">
                 <img
-                  style={{ width: "23px", height: "36px" }}
+                  style={{ width: "43px", height: "28px" }}
                   src="/icons/icon3.svg"
                   alt=""
                 />

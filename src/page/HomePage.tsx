@@ -2,6 +2,7 @@
 import Contruction from "../components/contruction/Contruction";
 import Footer from "../components/footer/footer";
 import Introduction from "../components/introduction/Introduction";
+import Test from "../components/test/test";
 import "./HomePage.css";
 const HomePage = () => {
   return (
